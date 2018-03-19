@@ -1,0 +1,24 @@
+fichefrais :
+  type: rest
+  resource:     "FraisApiBundle:FichefraisRest"
+  name_prefix:  api_fichefrais_
+  
+fraisforfait :
+  type: rest
+  resource:     "FraisApiBundle:FraisforfaitRest"
+  name_prefix:  api_fraisforfait_
+
+fraishorsforfait :
+  type: rest
+  resource:     "FraisApiBundle:FraishorsforfaitRest"
+  name_prefix:  api_fraishorsforfait_
+  
+typefraisforfait :
+  type: rest
+  resource:     "FraisApiBundle:TypefraisforfaitRest"
+  name_prefix:  api_typefraisforfait_
+  
+etat :
+  type: rest
+  resource:     "FraisApiBundle:EtatRest"
+  name_prefix:  api_etat_
